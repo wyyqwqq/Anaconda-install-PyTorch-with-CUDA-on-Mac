@@ -63,4 +63,4 @@ but then I open jupyter notebook, run "import torch -> torch.cuda.is_available()
 
 2. When I run python -> import torch -> torch.cuda.is_available(), it returns "True", but when I run the same code in jupyter notebook, it returns "False", that means I didn't install jupyter notebook correctly, so I re-run "conda install ipython jupyter notebook matplotlib" again.
 
-3. I got my jupyter notebook run correctly and I can use PyTorch with CUDA, but when I install several libs like cv2, scipy, and sklearn, the cuda is out again. So I re-run step 2 again, and by careful, do not use pip install in your conda environment, it could mess up your configuration.
+3. I got my jupyter notebook run correctly and I can use PyTorch with CUDA, but when I install several libs like cv2, scipy, and sklearn, the cuda is out again. So I re-run step 2 again, and be careful, use pip install in your conda environment could mess up your configuration.
