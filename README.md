@@ -38,7 +38,9 @@ conda install ipython jupyter notebook matplotlib
 
 4. install torchvision
 ```
-conda install torchvision --no-deps -c soumith
+conda install torchvision --no-deps -c soumith 
+or
+pip install torchvision
 ```
 
 5. restart your computer and activate conda environment
